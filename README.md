@@ -1,4 +1,4 @@
-#Userstory-001
+# Userstory-001
 
 Below is just a simple written function, with a nice "framing" to it.
 It doesn't do much, but it looks great.
@@ -8,7 +8,7 @@ function Kristofer () {
    return Kristofer;
 }
 ```
-#Userstory-002 
+# Userstory-002 
 Below is a simple function in java 
 ```
 public class Main {
@@ -91,20 +91,39 @@ You should get something like this
 ___
 
 
-#Userstory-010
+# Userstory-010
+
+## Making lists
 
 There are a few ways of making lists.
 
-##1.
+### 1.
 
 ```
 :put =range(11,12))
 ```
 in an old-school typewriter way, these numbers list vertically.
 
-1. You can also press ctrl+p to do a block selection, and through "veteran speed keyboarding" make lists incredibly fast.
+### 2. You can also press ctrl+p to do a block selection, and through "veteran speed keyboarding" make lists incredibly fast.
 
-2. Of course you can still work the same good old ```<ul/><li/>```-way
+### 3. Of course you can still work the same good old ```<ul/><li/>```-way
 
 
+# Userstory-015
+
+## Highlighting certain words in markdown.
+
+### 1. 
+
+You can either put a ```<mark>````-tag (w opening/closing tag)
+
+So <mark>this</mark>part of the text should now be lit.
+
+### 2.
+
+You can do it javascript style as well, by highlighting the text by color.
+
+```js
+<div style="background-color: #FFFF00">Highlighted text</div>
+```
 
