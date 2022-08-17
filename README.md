@@ -144,7 +144,7 @@ erDiagram
 
 
 ## Userstory 016
-To make a sequence diagram you copy these lines and you change them according to what you want it to be
+# To make a sequence diagram you copy these lines and you change them according to what you want it to be
 "
 ```mermaid
 "sequenceDiagram

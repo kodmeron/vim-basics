@@ -139,7 +139,6 @@ erDiagram
     ORDER ||--|{ LINE-ITEM : contains
     CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
 ```
-<<<<<<< HEAD
 
 
 
@@ -160,8 +159,3 @@ sequenceDiagram
     Jonte-->Eliaz>: På en skala från 1-10 hur jobbig är jag just nu?
     Eliaz-)Jonte: 8
 ```
-
-
-=======
->>>>>>> 721868aea2843af49d79955c928ea2c551e2d9b2
->>>>>>> 5f9b3ffbcc6ab01587cb74bd324ab9161abb1be8
