@@ -37,7 +37,8 @@ To use Bold in markdown:
 Add to asterisks between text
 This is how you write:
 "This is **This is gonna be bold**"
-This is **Bold text**
+This is **Bold text
+**
 
 ## Userstory 008
 
@@ -50,4 +51,16 @@ This is **Bold text**
 
 :dinEmoticon:
 
-:sunglasses: 
+:sunglasses:
+
+## Userstory 006
+
+Sträck för att göra table -- för kolumn
+
+
+| J | O | N | T | E |
+|---|---|---|---|---|
+| M | A | R | K | U |
+| E | L | I | A | Z |
+|   |   |   |   |   |
+
