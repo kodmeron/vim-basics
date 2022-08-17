@@ -29,7 +29,7 @@ Homeboy-->>Mannen: Tamam
 Dude->>Homeboy: Ah dura
 Dude-->>Homeboy: bram lol
 ```
-#Userstory-010
+# Userstory-010
 
 There are a few ways of making lists.
 
@@ -40,14 +40,17 @@ There are a few ways of making lists.
 ```
 in an old-school typewriter way, these numbers list vertically.
 
-1. You can also press ctrl+p to do a block selection, and through "veteran speed keyboarding" make lists incredibly fast.
+## 1. You can also press ctrl+p to do a block selection, and through "veteran speed keyboarding" make lists incredibly fast.
 
-2. Of course you can still work the same good old ```<ul/><li/>```-way
+## 2. Of course you can still work the same good old ```<ul/><li/>```-way
 
-#Userstory-001
+# Userstory-001
 
 Below is just a simple written function, with a nice "framing" to it.
 It doesn't do much, but it looks great.
+
+just put " ```js and ``` 
+
 
 ```js
 function Kristofer () {
