@@ -36,6 +36,7 @@ You can use standard HTML. Inline styling for CSS properties is allowed.
 <img src="<YOUR-DIRECT LINK>" alt="<IMAGE-DESC>" style="<YOUR-STYLE>" />
 ```
 
+
 ## USERSTORY 005
 
 ## Brackets runt kommentar och parantes runt länk
