@@ -107,7 +107,6 @@ in an old-school typewriter way, these numbers list vertically.
 2. Of course you can still work the same good old ```<ul/><li/>```-way
 
 
-<<<<<<< HEAD
 ##Userstory 11 
 #Blockquotes
 
@@ -129,7 +128,8 @@ Just like DaVinci one said:
 > Don't fuck with my commits shorty damn
 
 before he got stabbed to death.
-=======
+
+
 ## Userstory 012
 
 
