@@ -41,6 +41,7 @@ You can use standard HTML. Inline styling for CSS properties is allowed.
 
 ## Brackets runt kommentar och parantes runt länk
 
+
 [Bra musik!](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ## Userstory 006
@@ -106,5 +107,37 @@ in an old-school typewriter way, these numbers list vertically.
 
 2. Of course you can still work the same good old ```<ul/><li/>```-way
 
+#Userstory-013
 
+The top compartment contains the name of the class. It is printed in bold and centered, and the first letter is capitalized. It may also contain optional annotation text describing the nature of the class. 
+The middle compartment contains the attributes of the class. They are left-aligned and the first letter is lowercase.
+The bottom compartment contains the operations the class can execute. They are also left-aligned and the first letter is lowercase.
+
+```mermaid
+classDiagram
+Animal <|-- Duck
+Animal <|-- Fish
+Animal <|-- Zebra 
+Animal : +int age
+Animal : +String gender
+Animal: +isMammal()
+Animal: +mate()
+
+class Duck{
++String beakColor
++swim()
++quack()
+}
+
+class Fish{
+-int sizeInFeet
+-canEat()
+}
+
+class Zebra{
++bool is_wild
++run()
+}
+
+```
 
