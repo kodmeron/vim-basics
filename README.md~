@@ -221,7 +221,8 @@ Then you can make them more like a diagram by adding more such as this
     		Alice-)John: See you later!
 ```
 ## For example 
-```mermaid
+```md
+mermaid
 sequenceDiagram
     Eliaz->>Jonte: Sluta vara jobbig Jonte!
     Jonte-->>Eliaz: På en skala från 1-10 hur jobbig är jag just nu?

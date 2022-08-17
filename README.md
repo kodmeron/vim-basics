@@ -214,15 +214,15 @@ Then you can make them more like a diagram by adding more such as this
 ## Userstory 016
 ### To make a sequence diagram you copy these lines and you change them according to what you want it to be
 
-```mermaid
+```
+mermaid
  sequenceDiagram
     		Alice->>John: Hello John, how are you?
     		John-->>Alice: Great!
     		Alice-)John: See you later!
 ```
 ## For example 
-```md
-mermaid
+```mermaid
 sequenceDiagram
     Eliaz->>Jonte: Sluta vara jobbig Jonte!
     Jonte-->>Eliaz: På en skala från 1-10 hur jobbig är jag just nu?
