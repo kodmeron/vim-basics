@@ -165,12 +165,32 @@ before he got stabbed to death.
 
 ## Userstory 012
 
+You define a Entity Relationship Diagram by rendering them with mermaid, you start by typing three ` then typing mermaid connected to them, which you also  
+end the diagram with but you dont type the mermaid, only three `
+
+Then you make the diagram by defining which type of diagram it is, in this case its an erDiagram.
+Here is where you type the different entities and their relationships.
+for instance if you write
+ENTITY ||--o {SECOND-ENTITY : LABEL  
+then you get this
 
 ````mermaid
 erDiagram
-    CUSTOMER ||--o{ ORDER : places
-    ORDER ||--|{ LINE-ITEM : contains
-    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+    ENTITY ||--o{ SECOND-ENTITY  : LABEL
+```
+
+Then you can make them more like a diagram by adding more such as this
+
+erDiagram
+    ENTITY ||--o{ SECOND-ENTITY  : THIS-IS-THEIR-LABEL
+    CONNECTED-TO-ENTITY ||--|{ ANOTHER-ENTITY : THIS-IS-ALSO-A-LABEL
+    ENTITY }|..|{ ALSO-ANOTHER-ENTITY : THIS-IS-ALSO-ANOTHER-LABEL
+
+````mermaid
+erDiagram
+    ENTITY ||--o{ SECOND-ENTITY  : THIS-IS-THEIR-LABEL
+    CONNECTED-TO-ENTITY ||--|{ ANOTHER-ENTITY : THIS-IS-ALSO-A-LABEL
+    ENTITY }|..|{ ALSO-ANOTHER-ENTITY : THIS-IS-ALSO-ANOTHER-LABEL
 ```
 
 
@@ -190,3 +210,5 @@ sequenceDiagram
     Jonte-->Eliaz>: På en skala från 1-10 hur jobbig är jag just nu?
     Eliaz-)Jonte: 8
 ```
+
+
