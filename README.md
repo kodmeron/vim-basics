@@ -1,3 +1,4 @@
+
 ## Hello man,
 # I've seen footage
 
@@ -20,7 +21,30 @@ Homeboy-->>Mannen: Tamam
 Dude->>Homeboy: Ah dura
 Dude-->>Homeboy: bram lol
 ```
+## USERSTORY 005
+
+## Brackets runt kommentar och parantes runt länk
+
+[Bra musik!](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+
+
+
+
 
 ## Userstory 007
 # To use Bold in markdown you put 2 asterisk between the word you want bold
 This is **Bold text**
+
+## Userstory 008
+
+
+** Hur man lägger in en emoticon i markdown **  
+
+1. Hitta en emoticon du gillar i detta fall använder jag mig av sunglasses
+
+2. Lägg kolon framför och efter emoticon så det blir såhär
+
+:dinEmoticon:
+
+:sunglasses: 
