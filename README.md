@@ -214,8 +214,8 @@ Then you can make them more like a diagram by adding more such as this
 ## Userstory 016
 ### To make a sequence diagram you copy these lines and you change them according to what you want it to be
 
-```md
-mermaid sequenceDiagram
+```mermaid
+ sequenceDiagram
     		Alice->>John: Hello John, how are you?
     		John-->>Alice: Great!
     		Alice-)John: See you later!

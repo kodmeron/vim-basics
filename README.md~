@@ -1,4 +1,4 @@
-# Userstory-001
+## Userstory-001
 
 Below is just a simple written function, with a nice "framing" to it.
 It doesn't do much, but it looks great.
@@ -8,7 +8,7 @@ function Kristofer () {
    return Kristofer;
 }
 ```
-# Userstory-002 
+## Userstory-002 
 Below is a simple function in java 
 ```
 public class Main {
@@ -20,8 +20,8 @@ System.out.println("Hello World")
 
 ## Userstory 003
 
-## How to insert an image in markdown
-#Quick tutorial
+### How to insert an image in markdown
+### Quick tutorial
 
 This is a quick guide on how to make it work. No fuzz, just how to put memes inside an .md file such as this one:
 
@@ -30,7 +30,7 @@ This is a quick guide on how to make it work. No fuzz, just how to put memes ins
 You can use standard HTML. Inline styling for CSS properties is allowed.
 
 
-#View example below:
+### View example below:
 
 ```HTML
 <img src="<YOUR-DIRECT LINK>" alt="<IMAGE-DESC>" style="<YOUR-STYLE>" />
@@ -39,7 +39,7 @@ You can use standard HTML. Inline styling for CSS properties is allowed.
 
 ## USERSTORY 005
 
-## Brackets runt kommentar och parantes runt länk
+### Brackets runt kommentar och parantes runt länk
 
 
 [Bra musik!](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
@@ -55,11 +55,11 @@ Sträck för att göra table -- för kolumn
 | E | L | I | A | Z |
 |   |   |   |   |   |
 
-# Userstory 007
-## To use Bold in markdown you put 2 asterisk between the words or word you want bold
+## Userstory 007
+### To use Bold in markdown you put 2 asterisk between the words or word you want bold
 This is **Bold text**
 
-## To use Italic tect in markdown you put 1 asterik between the words or word
+### To use Italic tect in markdown you put 1 asterik between the words or word
 This is *Italic text*
 
 ## Userstory 008
@@ -109,11 +109,11 @@ in an old-school typewriter way, these numbers list vertically.
 
 ### 3. Of course you can still work the same good old ```<ul/><li/>```-way
 
-#Userstory-013
+## Userstory-013
 
-# Userstory-015
+## Userstory-015
 
-## Highlighting certain words in markdown.
+### Highlighting certain words in markdown.
 
 ### 1. 
 
@@ -161,11 +161,11 @@ class Zebra{
 
 ```
 ## Userstory 11 
-#Blockquotes
+### Blockquotes
 
 It's just like the funny 4chan texts with the  arrows.
 
-# Check this one out:
+### Check this one out:
 ```
 Just like DaVinci one said:
 
@@ -185,8 +185,8 @@ before he got stabbed to death.
 
 ## Userstory 012
 
-You define a Entity Relationship Diagram by rendering them with mermaid, you start by typing three ` then typing mermaid connected to them, which you also  
-end the diagram with but you dont type the mermaid, only three `
+You define a Entity Relationship Diagram by rendering them with mermaid, you start by typing three backticks then typing mermaid connected to them, which you also  
+end the diagram with but you dont type the mermaid, only three backticks  
 
 Then you make the diagram by defining which type of diagram it is, in this case its an erDiagram.
 Here is where you type the different entities and their relationships.
@@ -195,14 +195,14 @@ ENTITY ||--o {SECOND-ENTITY : LABEL
 then you get this
 
 ```mermaid
-erDiagram
+  erDiagram
     ENTITY ||--o{ SECOND-ENTITY  : LABEL
 ```
 
 Then you can make them more like a diagram by adding more such as this
 
 ```mermaid
-erDiagram
+  erDiagram
     ENTITY ||--o{ SECOND-ENTITY  : THIS-IS-THEIR-LABEL
     CONNECTED-TO-ENTITY ||--|{ ANOTHER-ENTITY : THIS-IS-ALSO-A-LABEL
     ENTITY }|..|{ ALSO-ANOTHER-ENTITY : THIS-IS-ALSO-ANOTHER-LABEL
@@ -212,7 +212,7 @@ erDiagram
 
 
 ## Userstory 016
-# To make a sequence diagram you copy these lines and you change them according to what you want it to be
+### To make a sequence diagram you copy these lines and you change them according to what you want it to be
 
 ```md
 mermaid sequenceDiagram
@@ -220,11 +220,11 @@ mermaid sequenceDiagram
     		John-->>Alice: Great!
     		Alice-)John: See you later!
 ```
-# For example 
+## For example 
 ```mermaid
 sequenceDiagram
     Eliaz->>Jonte: Sluta vara jobbig Jonte!
-    Jonte-->Eliaz>: På en skala från 1-10 hur jobbig är jag just nu?
+    Jonte-->>Eliaz: På en skala från 1-10 hur jobbig är jag just nu?
     Eliaz-)Jonte: 8
 ```
 
