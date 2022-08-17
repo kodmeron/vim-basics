@@ -41,7 +41,6 @@ You can use standard HTML. Inline styling for CSS properties is allowed.
 
 ## Brackets runt kommentar och parantes runt länk
 
-
 [Bra musik!](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ## Userstory 006
@@ -107,39 +106,7 @@ in an old-school typewriter way, these numbers list vertically.
 
 2. Of course you can still work the same good old ```<ul/><li/>```-way
 
-#Userstory-013
 
-The top compartment contains the name of the class. It is printed in bold and centered, and the first letter is capitalized. It may also contain optional annotation text describing the nature of the class. 
-The middle compartment contains the attributes of the class. They are left-aligned and the first letter is lowercase.
-The bottom compartment contains the operations the class can execute. They are also left-aligned and the first letter is lowercase.
-
-```mermaid
-classDiagram
-Animal <|-- Duck
-Animal <|-- Fish
-Animal <|-- Zebra 
-Animal : +int age
-Animal : +String gender
-Animal: +isMammal()
-Animal: +mate()
-
-class Duck{
-+String beakColor
-+swim()
-+quack()
-}
-
-class Fish{
--int sizeInFeet
--canEat()
-}
-
-class Zebra{
-+bool is_wild
-+run()
-}
-
-```
 ##Userstory 11 
 #Blockquotes
 
@@ -172,6 +139,7 @@ erDiagram
     ORDER ||--|{ LINE-ITEM : contains
     CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
 ```
+<<<<<<< HEAD
 
 
 
@@ -192,3 +160,8 @@ sequenceDiagram
     Jonte-->Eliaz>: På en skala från 1-10 hur jobbig är jag just nu?
     Eliaz-)Jonte: 8
 ```
+
+
+=======
+>>>>>>> 721868aea2843af49d79955c928ea2c551e2d9b2
+>>>>>>> 5f9b3ffbcc6ab01587cb74bd324ab9161abb1be8
