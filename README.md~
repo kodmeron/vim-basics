@@ -20,3 +20,10 @@ Homeboy-->>Mannen: Tamam
 Dude->>Homeboy: Ah dura
 Dude-->>Homeboy: bram lol
 ```
+
+## Userstory 007
+To use Bold in markdown:
+Add to asterisks between text
+This is how you write:
+"This is **This is gonna be bold**"
+This is **Bold text**

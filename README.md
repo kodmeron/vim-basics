@@ -22,8 +22,5 @@ Dude-->>Homeboy: bram lol
 ```
 
 ## Userstory 007
-To use Bold in markdown:
-Add to asterisks between text
-This is how you write:
-"This is **This is gonna be bold**"
+# To use Bold in markdown you put 2 asterisk between the word you want bold
 This is **Bold text**
