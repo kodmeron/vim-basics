@@ -30,9 +30,12 @@ You can use standard HTML. Inline styling for CSS properties is allowed.
 
 
 
-## Userstory 007
-# To use Bold in markdown you put 2 asterisk between the word you want bold
+# Userstory 007
+## To use Bold in markdown you put 2 asterisk between the words or word you want bold
 This is **Bold text**
+
+## To use Italic tect in markdown you put 1 asterik between the words or word
+This is *Italic text*
 
 ## Userstory 008
 
