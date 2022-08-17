@@ -1,22 +1,15 @@
-## Hello man,
-# I've seen footage
+## How to insert an image in markdown
+#Quick tutorial
 
-Happy hour family night
+This is a quick guide on how to make it work. No fuzz, just how to put memes inside an .md file such as this one:
 
-```javascript
-const gorillaMan = (a, b) => a * b;
-```
+<img src="https://www.meme-arsenal.com/memes/4105d28f45566683f9800958847c4664.jpg" alt="mouth girl meme" style="float: left;" />
 
-```mermaid
- sequenceDiagram
-participant Mannen
-participant Dude
-Mannen->>Homeboy: Tja dude, what's boppin'?
-loop Healthcheck
-Homeboy->>Homeboy: Chainsaw party haha
-end
-Note right of Homeboy: Murder ride sucka <br/>raaaah
-Homeboy-->>Mannen: Tamam
-Dude->>Homeboy: Ah dura
-Dude-->>Homeboy: bram lol
+You can use standard HTML. Inline styling for CSS properties is allowed.
+
+
+#View example below:
+
+```HTML
+<img src="<YOUR-DIRECT LINK>" alt="<IMAGE-DESC>" style="<YOUR-STYLE>" />
 ```
