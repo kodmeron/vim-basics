@@ -38,12 +38,11 @@ There are a few ways of making lists.
 ```
 :put =range(11,12))
 ```
-:put =range(11,12))
 in an old-school typewriter way, these numbers list vertically.
 
-##2. You can also press ctrl+p to do a block selection, and through "veteran speed keyboarding" make lists incredibly fast.
+1. You can also press ctrl+p to do a block selection, and through "veteran speed keyboarding" make lists incredibly fast.
 
-##3. Of course you can still work the same good old <ul/><li/>-way
+2. Of course you can still work the same good old ```<ul/><li/>```-way
 
 #Userstory-001
 
