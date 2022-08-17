@@ -1,4 +1,4 @@
-#Userstory-001
+# Userstory-001
 
 Below is just a simple written function, with a nice "framing" to it.
 It doesn't do much, but it looks great.
@@ -8,7 +8,7 @@ function Kristofer () {
    return Kristofer;
 }
 ```
-#Userstory-002 
+# Userstory-002 
 Below is a simple function in java 
 ```
 public class Main {
@@ -92,23 +92,43 @@ You should get something like this
 ___
 
 
-#Userstory-010
+# Userstory-010
+
+## Making lists
 
 There are a few ways of making lists.
 
-##1.
+### 1.
 
 ```
 :put =range(11,12))
 ```
 in an old-school typewriter way, these numbers list vertically.
 
-1. You can also press ctrl+p to do a block selection, and through "veteran speed keyboarding" make lists incredibly fast.
+### 2. You can also press ctrl+p to do a block selection, and through "veteran speed keyboarding" make lists incredibly fast.
 
-2. Of course you can still work the same good old ```<ul/><li/>```-way
+### 3. Of course you can still work the same good old ```<ul/><li/>```-way
 
 #Userstory-013
 
+# Userstory-015
+
+## Highlighting certain words in markdown.
+
+### 1. 
+
+You can either put a ```<mark>````-tag (w opening/closing tag)
+
+So <mark>this</mark>part of the text should now be lit.
+
+### 2.
+
+You can do it javascript style as well, by highlighting the text by color.
+
+```js
+<div style="background-color: #FFFF00">Highlighted text</div>
+```
+## Userstory 11 
 The top compartment contains the name of the class. It is printed in bold and centered, and the first letter is capitalized. It may also contain optional annotation text describing the nature of the class. 
 The middle compartment contains the attributes of the class. They are left-aligned and the first letter is lowercase.
 The bottom compartment contains the operations the class can execute. They are also left-aligned and the first letter is lowercase.
@@ -140,12 +160,12 @@ class Zebra{
 }
 
 ```
-##Userstory 11 
+## Userstory 11 
 #Blockquotes
 
 It's just like the funny 4chan texts with the  arrows.
 
-#Check this one out:
+# Check this one out:
 ```
 Just like DaVinci one said:
 
@@ -192,6 +212,7 @@ erDiagram
     CONNECTED-TO-ENTITY ||--|{ ANOTHER-ENTITY : THIS-IS-ALSO-A-LABEL
     ENTITY }|..|{ ALSO-ANOTHER-ENTITY : THIS-IS-ALSO-ANOTHER-LABEL
 ```
+<<<<<<< HEAD
 
 
 ## Userstory 016
