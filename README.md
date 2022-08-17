@@ -8,7 +8,7 @@ const gorillaMan = (a, b) => a * b;
 ```
 
 ```mermaid
- secuenceDiagram
+ sequenceDiagram
 participant Mannen
 participant Dude
 Mannen->>Homeboy: Tja dude, what's boppin'?
