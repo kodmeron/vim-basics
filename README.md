@@ -140,4 +140,35 @@ class Zebra{
 }
 
 ```
+##Userstory 11 
+#Blockquotes
 
+It's just like the funny 4chan texts with the  arrows.
+
+#Check this one out:
+```
+Just like DaVinci one said:
+
+> Don't fuck with my commits shorty damn
+
+before he got stabbed to death.
+```
+
+Which comes out looking like this;
+
+Just like DaVinci one said:
+
+> Don't fuck with my commits shorty damn
+
+before he got stabbed to death.
+
+
+## Userstory 012
+
+
+````mermaid
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+```
