@@ -107,6 +107,7 @@ in an old-school typewriter way, these numbers list vertically.
 2. Of course you can still work the same good old ```<ul/><li/>```-way
 
 
+<<<<<<< HEAD
 ##Userstory 11 
 #Blockquotes
 
@@ -128,3 +129,14 @@ Just like DaVinci one said:
 > Don't fuck with my commits shorty damn
 
 before he got stabbed to death.
+=======
+## Userstory 012
+
+
+````mermaid
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+```
+>>>>>>> 721868aea2843af49d79955c928ea2c551e2d9b2
