@@ -194,17 +194,20 @@ for instance if you write
 ENTITY ||--o {SECOND-ENTITY : LABEL  
 then you get this
 
-````mermaid
+```mermaid
 erDiagram
     ENTITY ||--o{ SECOND-ENTITY  : LABEL
 ```
 
 Then you can make them more like a diagram by adding more such as this
 
+```mermaid
 erDiagram
     ENTITY ||--o{ SECOND-ENTITY  : THIS-IS-THEIR-LABEL
     CONNECTED-TO-ENTITY ||--|{ ANOTHER-ENTITY : THIS-IS-ALSO-A-LABEL
     ENTITY }|..|{ ALSO-ANOTHER-ENTITY : THIS-IS-ALSO-ANOTHER-LABEL
+```
+
 
 ````mermaid
 erDiagram
