@@ -223,8 +223,8 @@ mermaid sequenceDiagram
 # For example 
 ```mermaid
 sequenceDiagram
-    Eliaz->>Jonte: Sluta vara jobbig Jonte!
-    Jonte-->Eliaz>: På en skala från 1-10 hur jobbig är jag just nu?
+    Eliaz->>Jonte: Stop being annnoying
+    Jonte-->Eliaz>: On a scale from 1-10 how annoying am i right now
     Eliaz-)Jonte: 8
 ```
 
