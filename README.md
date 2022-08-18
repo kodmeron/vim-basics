@@ -214,20 +214,29 @@ erDiagram
 
 
 
-## Userstory 016
-# To make a sequence diagram you copy these lines and you change them according to what you want it to be
+# Userstory 016
+## How to make a sequence diagram in markdown
+You have to first define that you are going to use mermaid, you do this by typing three apostrophes and then the word mermaid after you type three apostrophes to close when you want to stop using mermaid
+You then have to specify which diagram you want to use, in this case we want to use a sequence diagram. 
 
-```md
-mermaid sequenceDiagram
-    		Alice->>John: Hello John, how are you?
-    		John-->>Alice: Great!
-    		Alice-)John: See you later!
-```
-# For example 
+You have to then define which participants you want to use, in this case we will use John and Alice
+To The make them connect to eachother you type: 
+Alice --> John or John --> Alice
+
+This will result in this:
+
 ```mermaid
 sequenceDiagram
-    Eliaz->>Jonte: Stop being annnoying
-    Jonte-->Eliaz>: How annoying am i one scale from 1 to 10
-    Eliaz-)Jonte: 8
+    Alice->>John: 
+    John-->>Alice:
+```
+You then have to specify what you want them to say, you do that by using a colon
+For example: John --> Alice: "Hello
+
+This will result in this:
+```mermaid
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
 ```
 
