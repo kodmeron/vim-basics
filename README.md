@@ -224,8 +224,7 @@ mermaid sequenceDiagram
 ```mermaid
 sequenceDiagram
     Eliaz->>Jonte: Stop being annnoying
-    Jonte-->Eliaz>: On a scale from 1-10 how annoying am i right now
+    Jonte-->Eliaz>: På en ska
     Eliaz-)Jonte: 8
 ```
-
 
