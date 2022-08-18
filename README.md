@@ -8,6 +8,8 @@ function Kristofer () {
    return Kristofer;
 }
 ```
+
+Just add "```js" and close with "```"
 # Userstory-002 
 Below is a simple function in java 
 ```
@@ -98,16 +100,9 @@ ___
 
 There are a few ways of making lists.
 
-### 1.
+### 1. You can also press ctrl+p to do a block selection, and through "veteran speed keyboarding" make lists incredibly fast.
 
-```
-:put =range(11,12))
-```
-in an old-school typewriter way, these numbers list vertically.
-
-### 2. You can also press ctrl+p to do a block selection, and through "veteran speed keyboarding" make lists incredibly fast.
-
-### 3. Of course you can still work the same good old ```<ul/><li/>```-way
+### 2. Of course you can still work the same good old ```<ul/><li/>```-way
 
 #Userstory-013
 
@@ -117,7 +112,7 @@ in an old-school typewriter way, these numbers list vertically.
 
 ### 1. 
 
-You can either put a ```<mark>````-tag (w opening/closing tag)
+You can either put a ```<mark>```-tag (w opening/closing tag)
 
 So <mark>this</mark>part of the text should now be lit.
 
