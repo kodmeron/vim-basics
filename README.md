@@ -1,4 +1,6 @@
-# Userstory-001
+# Markdown basics
+
+## Userstory-001: How to make a codeblock
 
 Below is just a simple written function, with a nice "framing" to it.
 It doesn't do much, but it looks great.
@@ -11,8 +13,7 @@ function Kristofer () {
 
 Just add "```"js and close it.
 
-# Userstory-002 
-
+##  Userstory-002: How to make a java codeblock in markdown
 
 Below is a simple function in java 
 ```
@@ -22,27 +23,22 @@ System.out.println("Hello World")
 }
 ```
 
+## Userstory 003: How to insert an image in markdown
 
-# Userstory 003
-
-## How to insert an image in markdown
-#Quick tutorial
-
-This is a quick guide on how to make it work. No fuzz, just how to put memes inside an .md file such as this one:
+This is a quick guide on how to make images work in markdown. No fuzz, just how to put memes inside an .md file such as this one:
 
 <img src="https://www.meme-arsenal.com/memes/4105d28f45566683f9800958847c4664.jpg" alt="mouth girl meme" style="float: left;" />
 
 You can use standard HTML. Inline styling for CSS properties is allowed.
 
 
-#View example below:
+## View example below:
 
 ```HTML
 <img src="<YOUR-DIRECT LINK>" alt="<IMAGE-DESC>" style="<YOUR-STYLE>" />
 ```
-# Userstory-004
 
-## Another codeblock
+## Userstory-004: Making a javascript codeblock
 
 ```js
 export default ({ products }) => {
@@ -59,15 +55,11 @@ export default ({ products }) => {
 
 Just add "```"js and close it.
 
-# Userstory-005
-
-## Brackets runt kommentar och parantes runt länk
-
+## Userstory-005: Brackets runt kommentar och parantes runt länk
 
 [Bra musik!](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
-# Userstory-006
-
+## Userstory-006: How to make tables in markdown
 Sträck för att göra table -- för kolumn
 
 
@@ -77,7 +69,7 @@ Sträck för att göra table -- för kolumn
 | E | L | I | A | Z |
 |   |   |   |   |   |
 
-# Userstory-007
+## Userstory-007: How to make bold and italic text
 
 ### To use Bold in markdown you put 2 asterisk between the words or word you want bold
 This is **Bold text**
@@ -85,9 +77,7 @@ This is **Bold text**
 ### To use Italic tect in markdown you put 1 asterik between the words or word
 This is *Italic text*
 
-# Userstory-008
-
-## Emoticons
+## Userstory-008: Emoticons (has github support)
 
 
 ** Hur man lägger in en emoticon i markdown **  
@@ -100,10 +90,7 @@ This is *Italic text*
 
 :sunglasses:
 
-
-# Userstory-009
-
-## Horisontal rulers
+## Userstory-009: Horisontal rulers
 
 Horisontal rulers can be created by using three or more of  *,- or _ 
 and by placing them all on their own lines.
@@ -119,10 +106,7 @@ You should get something like this
 
 ___
 
-
-# Userstory-010
-
-## Making lists
+## Userstory-010: Lists
 
 There are a few ways of making lists.
 
@@ -136,9 +120,7 @@ Of course you can still work the same good old ```<ul/><li/>```-way
 
 
 
-# Userstory-011 
-## Blockquotes
-
+## Userstory-011: Blockquotes
 ### Check this one out:
 
 ```
@@ -157,7 +139,7 @@ Just like DaVinci one said:
 
 before he got stabbed to death.
 
-# Userstory-012
+## Userstory-012: ER diagrams
 
 You define a Entity Relationship Diagram by rendering them with mermaid, you start by typing three backticks then typing mermaid connected to them, which you also  
 end the diagram with but you dont type the mermaid, only three backticks  
@@ -182,7 +164,7 @@ Then you can make them more like a diagram by adding more such as this
     ENTITY }|..|{ ALSO-ANOTHER-ENTITY : THIS-IS-ALSO-ANOTHER-LABEL
 ```
 
-# Userstory-013
+## Userstory-013: Class diagrams
 The top compartment contains the name of the class. It is printed in bold and centered, and the first letter is capitalized. It may also contain optional annotation text describing the nature of the class. 
 The middle compartment contains the attributes of the class. They are left-aligned and the first letter is lowercase.
 The bottom compartment contains the operations the class can execute. They are also left-aligned and the first letter is lowercase.
@@ -215,9 +197,7 @@ class Zebra{
 
 ```
 
-
-# Userstory-014
-## Pie-charts
+## Userstory-014: Pie-charts
 
 Since Userstory-014 was not specified, we will here present a pie chart.<br>
 "mermaid" and "pie" are the more important key words in this instance.<br>
@@ -240,9 +220,7 @@ pie
 ```
 
 
-# Userstory-015
-
-## Highlighting certain words in markdown.
+## Userstory-015: Highlighting certain words
 
 ### 1. 
 
@@ -256,8 +234,9 @@ You can do it javascript style as well, by highlighting the text by color.
 <div style="background-color: #FFFF00">Highlighted text</div>
 ```
 
-# Userstory-016
-## To make a sequence diagram you copy these lines and you change them according to what you want it to be
+## Userstory-016: Sequence diagrams
+
+To make a sequence diagram you copy these lines and you change them according to what you want it to be
 
 ```
 mermaid
@@ -292,9 +271,7 @@ sequenceDiagram
     John-->>Alice: Great!
 ```
 
-# Userstory-017
-
-## Classic line breaks
+## Userstory-017: Classic line breaks
 
 Just like in HTML, you can add < br > tags to put in line breaks.<br> 
 I do it regularly in JS, let's try it!<br><br>
