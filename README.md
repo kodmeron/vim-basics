@@ -229,6 +229,14 @@ pie
     "Icke-idioter" : 270
     "Övriga" : 87 
 ```
+```
+mermaid
+pie
+    title Hur många idioter?
+    "Idioter" : 402
+    "Icke-idioter" : 270
+    "Övriga" : 87 
+```
 
 
 # Userstory-015
@@ -247,7 +255,7 @@ You can do it javascript style as well, by highlighting the text by color.
 <div style="background-color: #FFFF00">Highlighted text</div>
 ```
 
-# Userstory 016
+# Userstory-016
 ## To make a sequence diagram you copy these lines and you change them according to what you want it to be
 
 ```
@@ -283,3 +291,15 @@ sequenceDiagram
     John-->>Alice: Great!
 ```
 
+# Userstory-017
+
+## Classic line breaks
+
+Just like in HTML, you can add < br > tags to put in line breaks.<br> 
+I do it regularly in JS, let's try it!<br><br>
+
+It <br><br>
+May<br><br>
+Look<br><br>
+Like<br><br>
+This
