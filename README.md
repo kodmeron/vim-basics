@@ -8,9 +8,7 @@ function Kristofer () {
    return Kristofer;
 }
 ```
-
-
-Just add "```js" and close with "```"
+Just add "```"js and close it.
 
 # Userstory-002 
 
@@ -112,25 +110,55 @@ You can also press ctrl+p to do a block selection, and through "veteran speed ke
 
 Of course you can still work the same good old ```<ul/><li/>```-way
 
-## Userstory-013
+## Userstory-011 
+### Blockquotes
 
-## Userstory-015
+It's just like the funny 4chan texts with the  arrows.
 
-### Highlighting certain words in markdown.
-
-### 1. 
-
-You can either put a mark-tag (w opening/closing tag)
-
-
-### 2.
-
-You can do it javascript style as well, by highlighting the text by color.
-
-```js
-<div style="background-color: #FFFF00">Highlighted text</div>
+### Check this one out:
 ```
-## Userstory 11 
+Just like DaVinci one said:
+
+> Don't fuck with my commits shorty damn
+
+before he got stabbed to death.
+```
+
+Which comes out looking like this;
+
+Just like DaVinci one said:
+
+> Don't fuck with my commits shorty damn
+
+before he got stabbed to death.
+
+
+## Userstory-012
+
+You define a Entity Relationship Diagram by rendering them with mermaid, you start by typing three backticks then typing mermaid connected to them, which you also  
+end the diagram with but you dont type the mermaid, only three backticks  
+
+Then you make the diagram by defining which type of diagram it is, in this case its an erDiagram.
+Here is where you type the different entities and their relationships.
+for instance if you write
+ENTITY ||--o {SECOND-ENTITY : LABEL  
+then you get this
+
+```mermaid
+  erDiagram
+    ENTITY ||--o{ SECOND-ENTITY  : LABEL
+```
+
+Then you can make them more like a diagram by adding more such as this
+
+```mermaid
+  erDiagram
+    ENTITY ||--o{ SECOND-ENTITY  : THIS-IS-THEIR-LABEL
+    CONNECTED-TO-ENTITY ||--|{ ANOTHER-ENTITY : THIS-IS-ALSO-A-LABEL
+    ENTITY }|..|{ ALSO-ANOTHER-ENTITY : THIS-IS-ALSO-ANOTHER-LABEL
+```
+
+# Userstory-013
 The top compartment contains the name of the class. It is printed in bold and centered, and the first letter is capitalized. It may also contain optional annotation text describing the nature of the class. 
 The middle compartment contains the attributes of the class. They are left-aligned and the first letter is lowercase.
 The bottom compartment contains the operations the class can execute. They are also left-aligned and the first letter is lowercase.
@@ -162,59 +190,52 @@ class Zebra{
 }
 
 ```
-## Userstory 11 
-### Blockquotes
 
-It's just like the funny 4chan texts with the  arrows.
+# Userstory-014
 
-### Check this one out:
-```
-Just like DaVinci one said:
+## Pie-charts
 
-> Don't fuck with my commits shorty damn
-
-before he got stabbed to death.
-```
-
-Which comes out looking like this;
-
-Just like DaVinci one said:
-
-> Don't fuck with my commits shorty damn
-
-before he got stabbed to death.
-
-
-## Userstory 012
-
-You define a Entity Relationship Diagram by rendering them with mermaid, you start by typing three backticks then typing mermaid connected to them, which you also  
-end the diagram with but you dont type the mermaid, only three backticks  
-
-Then you make the diagram by defining which type of diagram it is, in this case its an erDiagram.
-Here is where you type the different entities and their relationships.
-for instance if you write
-ENTITY ||--o {SECOND-ENTITY : LABEL  
-then you get this
+Since Userstory-014 was not specified, we will here present a pie chart.<br>
+"mermaid" and "pie" are the more important key words in this instance.<br>
+(You'll also get to choose your fancy title)
 
 ```mermaid
-  erDiagram
-    ENTITY ||--o{ SECOND-ENTITY  : LABEL
+pie
+    title Hur många idioter?
+    "Idioter" : 402
+    "Icke-idioter" : 270
+    "Övriga" : 87 
 ```
 
-Then you can make them more like a diagram by adding more such as this
-
-```mermaid
-  erDiagram
-    ENTITY ||--o{ SECOND-ENTITY  : THIS-IS-THEIR-LABEL
-    CONNECTED-TO-ENTITY ||--|{ ANOTHER-ENTITY : THIS-IS-ALSO-A-LABEL
-    ENTITY }|..|{ ALSO-ANOTHER-ENTITY : THIS-IS-ALSO-ANOTHER-LABEL
+```
+mermaid
+pie
+    title Pie Chart
+    "Idioter" : 402
+    "Icke-idioter" : 270
+    "Övriga" : 87 
 ```
 
 
+# Userstory-015
+
+## Highlighting certain words in markdown.
+
+### 1. 
+
+You can either put a mark-tag (w opening/closing tag)
 
 
-## Userstory 016
-### To make a sequence diagram you copy these lines and you change them according to what you want it to be
+### 2.
+
+You can do it javascript style as well, by highlighting the text by color.
+
+```js
+<div style="background-color: #FFFF00">Highlighted text</div>
+```
+
+# Userstory 016
+## To make a sequence diagram you copy these lines and you change them according to what you want it to be
 
 ```
 mermaid
@@ -223,7 +244,7 @@ mermaid
     		John-->>Alice: Great!
     		Alice-)John: See you later!
 ```
-## For example 
+### For example 
 ```mermaid
 sequenceDiagram
     Eliaz->>Jonte: Sluta vara jobbig Jonte!
