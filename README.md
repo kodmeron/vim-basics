@@ -42,6 +42,23 @@ You can use standard HTML. Inline styling for CSS properties is allowed.
 ```
 # Userstory-004
 
+## Another codeblock
+
+```js
+export default ({ products }) => {
+    return products.map(product => {
+        return (
+            <div className="product" key={product.id}>
+                <div className="p-name">{product.name}</div>
+                <div className="p-desc">{product.description}</div>
+            </div>
+        );
+    });
+};
+```
+
+Just add "```"js and close it.
+
 # Userstory-005
 
 ## Brackets runt kommentar och parantes runt länk
@@ -69,6 +86,8 @@ This is *Italic text*
 
 # Userstory-008
 
+## Emoticons
+
 
 ** Hur man lägger in en emoticon i markdown **  
 
@@ -80,9 +99,10 @@ This is *Italic text*
 
 :sunglasses:
 
-# Userstory-008
 
 # Userstory-009
+
+## Horisontal rulers
 
 Horisontal rulers can be created by using three or more of  *,- or _ 
 and by placing them all on their own lines.
