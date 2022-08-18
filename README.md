@@ -221,14 +221,14 @@ You then have to specify which diagram you want to use, in this case we want to 
 
 You have to then define which participants you want to use, in this case we will use John and Alice
 To The make them connect to eachother you type: 
-Alice --> John or John --> Alice
+Alice -->> John or John -->> Alice
 
 This will result in this:
 
 ```mermaid
 sequenceDiagram
-    Alice->>John 
-    John-->>Alice
+    Alice->>John: Hello John 
+    John-->>Alice: Hello Alice
 ```
 You then have to specify what you want them to say, you do that by using a colon
 
