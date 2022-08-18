@@ -1,4 +1,4 @@
-## Userstory-001
+# Userstory-001
 
 Below is just a simple written function, with a nice "framing" to it.
 It doesn't do much, but it looks great.
@@ -8,6 +8,7 @@ function Kristofer () {
    return Kristofer;
 }
 ```
+
 Just add "```"js and close it.
 
 # Userstory-002 
@@ -24,8 +25,8 @@ System.out.println("Hello World")
 
 ## Userstory 003
 
-### How to insert an image in markdown
-### Quick tutorial
+## How to insert an image in markdown
+#Quick tutorial
 
 This is a quick guide on how to make it work. No fuzz, just how to put memes inside an .md file such as this one:
 
@@ -34,21 +35,21 @@ This is a quick guide on how to make it work. No fuzz, just how to put memes ins
 You can use standard HTML. Inline styling for CSS properties is allowed.
 
 
-### View example below:
+#View example below:
 
 ```HTML
 <img src="<YOUR-DIRECT LINK>" alt="<IMAGE-DESC>" style="<YOUR-STYLE>" />
 ```
+# Userstory-004
 
+# Userstory-005
 
-## USERSTORY 005
-
-### Brackets runt kommentar och parantes runt länk
+## Brackets runt kommentar och parantes runt länk
 
 
 [Bra musik!](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
-## Userstory 006
+# Userstory-006
 
 Sträck för att göra table -- för kolumn
 
@@ -59,14 +60,14 @@ Sträck för att göra table -- för kolumn
 | E | L | I | A | Z |
 |   |   |   |   |   |
 
-## Userstory 007
-### To use Bold in markdown you put 2 asterisk between the words or word you want bold
+# Userstory-007
+## To use Bold in markdown you put 2 asterisk between the words or word you want bold
 This is **Bold text**
 
-### To use Italic tect in markdown you put 1 asterik between the words or word
+## To use Italic tect in markdown you put 1 asterik between the words or word
 This is *Italic text*
 
-## Userstory 008
+## Userstory-008
 
 
 ** Hur man lägger in en emoticon i markdown **  
@@ -79,7 +80,9 @@ This is *Italic text*
 
 :sunglasses:
 
-## Userstory 009
+# Userstory-008
+
+# Userstory-009
 
 Horisontal rulers can be created by using three or more of  *,- or _ 
 and by placing them all on their own lines.
@@ -110,12 +113,13 @@ You can also press ctrl+p to do a block selection, and through "veteran speed ke
 
 Of course you can still work the same good old ```<ul/><li/>```-way
 
-## Userstory-011 
-### Blockquotes
 
-It's just like the funny 4chan texts with the  arrows.
+
+# Userstory-011 
+## Blockquotes
 
 ### Check this one out:
+
 ```
 Just like DaVinci one said:
 
@@ -131,7 +135,6 @@ Just like DaVinci one said:
 > Don't fuck with my commits shorty damn
 
 before he got stabbed to death.
-
 
 ## Userstory-012
 
@@ -191,8 +194,8 @@ class Zebra{
 
 ```
 
-# Userstory-014
 
+# Userstory-014
 ## Pie-charts
 
 Since Userstory-014 was not specified, we will here present a pie chart.<br>
@@ -207,15 +210,6 @@ pie
     "Övriga" : 87 
 ```
 
-```
-mermaid
-pie
-    title Pie Chart
-    "Idioter" : 402
-    "Icke-idioter" : 270
-    "Övriga" : 87 
-```
-
 
 # Userstory-015
 
@@ -224,7 +218,6 @@ pie
 ### 1. 
 
 You can either put a mark-tag (w opening/closing tag)
-
 
 ### 2.
 
@@ -245,11 +238,28 @@ mermaid
     		Alice-)John: See you later!
 ```
 ### For example 
+## How to make a sequence diagram in markdown
+
+You have to first define that you are going to use mermaid, you do this by typing three apostrophes and then the word mermaid after you type three apostrophes to close when you want to stop using mermaid
+You then have to specify which diagram you want to use, in this case we want to use a sequence diagram. 
+
+You have to then define which participants you want to use, in this case we will use John and Alice
+To The make them connect to eachother you type: 
+Alice -->> John or John -->> Alice
+
+This will result in this:
+
 ```mermaid
 sequenceDiagram
-    Eliaz->>Jonte: Sluta vara jobbig Jonte!
-    Jonte-->>Eliaz: På en skala från 1-10 hur jobbig är jag just nu?
-    Eliaz-)Jonte: 8
+    Alice->>John: Hello John 
+    John-->>Alice: Hello Alice
 ```
+You then have to specify what you want them to say, you do that by using a colon
 
+This will result in this:
+```mermaid
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+```
 
