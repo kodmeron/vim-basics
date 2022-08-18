@@ -227,8 +227,8 @@ This will result in this:
 
 ```mermaid
 sequenceDiagram
-    Alice->>John: 
-    John-->>Alice:
+    Alice->>John 
+    John-->>Alice
 ```
 You then have to specify what you want them to say, you do that by using a colon
 
